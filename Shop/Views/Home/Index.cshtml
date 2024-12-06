@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Home - Hosoren";
+}
+
+<div class="text-center mb-5">
+    <h1 class="display-4">Welcome to Hosoren</h1>
+    <p>Style Made Simple – Your One-Stop Shop for Fashion & Accessories!</p>
+</div>
+
+<!-- Секция с каруселью -->
+<section class="carousel-section mb-5">
+    <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/1.jpg" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/2.jpg" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/3.jpg" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/4.jpg" class="d-block w-100" alt="Image 4">
+            </div>
+        </div>
+        <!-- Стрелки управления -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<!-- Секция с календарем -->
+<section class="calendar-section">
+    <h2 class="text-center mb-4">Hot Deals Calendar</h2>
+    <div class="calendar-container">
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="hot-date">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td class="hot-date">4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td class="hot-date">9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td class="hot-date">12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td class="hot-date">14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td class="hot-date">17</td>
+                    <td>18</td>
+                    <td>19</td>
+                </tr>
+                <!-- Продолжайте заполнение месяца -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
