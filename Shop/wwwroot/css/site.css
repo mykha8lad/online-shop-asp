@@ -33,7 +33,6 @@ nav.navbar a:hover {
     max-width: 100%;
 }
 
-/* Стили для выпадающего меню */
 .navbar-nav .dropdown-menu {
     min-width: 10rem;
     text-align: center;
@@ -57,7 +56,6 @@ nav.navbar a:hover {
             color: #ffffff;
         }
 
-/* Стили для иконки профиля */
 .navbar-nav .nav-link .fas {
     margin-right: 0.5rem;
     font-size: 1.2rem;
@@ -67,7 +65,6 @@ nav.navbar a:hover {
     color: #007bff;
 }
 
-/* Анимация появления выпадающего меню */
 .navbar-nav .dropdown-menu {
     transform: translateY(-10px);
     opacity: 0;
@@ -80,7 +77,6 @@ nav.navbar a:hover {
     visibility: visible;
 }
 
-/* Адаптивность для меню */
 @media (max-width: 768px) {
     html {
         font-size: 16px;

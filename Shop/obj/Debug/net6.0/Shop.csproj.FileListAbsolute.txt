@@ -35,3 +35,5 @@ D:\ASPNETCORE\Shop\Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relationa
 D:\ASPNETCORE\Shop\Shop\bin\Debug\net6.0\Npgsql.dll
 D:\ASPNETCORE\Shop\Shop\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\ASPNETCORE\Shop\Shop\obj\Debug\net6.0\Shop.csproj.CopyComplete
+D:\ASPNETCORE\Shop\Shop\bin\Debug\net6.0\Humanizer.dll
+D:\ASPNETCORE\Shop\Shop\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

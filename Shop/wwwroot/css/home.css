@@ -1,11 +1,11 @@
 ﻿.carousel-section img {
-    height: 400px; /* Задайте подходящую высоту для изображений */
+    height: 400px;
     object-fit: cover;
 }
 
 .hot-date {
-    background-color: #ffcccb; /* Светло-красный фон */
-    color: #000; /* Черный текст */
+    background-color: #ffcccb;
+    color: #000;
     font-weight: bold;
 }
 

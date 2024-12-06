@@ -1,9 +1,7 @@
-﻿/* Заголовок */
-header {
+﻿header {
     color: #f8f9fa;        
 }
 
-/* Карточки брендов */
 .brand-card {
     text-align: start;
     overflow: hidden;
@@ -26,13 +24,11 @@ header {
         object-fit: cover;
         transition: opacity 0.4s ease-in-out;
     }
-
-    /* Скрываем hover-изображение по умолчанию */
+  
     .brand-image-wrapper .hover-image {
         opacity: 0;
     }
-
-    /* Показ hover-изображения при наведении */
+    
     .brand-image-wrapper:hover .hover-image {
         opacity: 1;
     }
@@ -41,14 +37,12 @@ header {
         opacity: 0;
     }
 
-/* Название бренда */
 .brand-name {
     font-size: 1.2rem;
     color: #333;
     margin-top: 10px;
 }
 
-/* Адаптивность */
 @media (max-width: 768px) {
     .brand-image-wrapper {
         width: 100%;

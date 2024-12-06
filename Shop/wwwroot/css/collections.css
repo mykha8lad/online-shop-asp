@@ -1,5 +1,4 @@
-﻿/* Основные стили для страницы Clothing */
-body {
+﻿body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
 }
@@ -18,7 +17,6 @@ header {
         margin-bottom: 0;
     }
 
-/* Стили для сетки товаров */
 .product-grid {
     margin-top: 50px;
     padding: 0 15px;
@@ -51,6 +49,10 @@ header {
     text-align: center;
 }
 
+.mb-4 {
+    margin-bottom: 2.9rem !important;
+}
+
 .product-name {
     font-size: 1.25rem;
     font-weight: bold;
@@ -70,7 +72,6 @@ header {
     font-weight: bold;
 }
 
-/* Стили для карточек товаров на мобильных устройствах */
 @media (max-width: 991px) {
     header h1 {
         font-size: 2.5rem;
